@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Niyati Trail</title>
+    <!-- Favicon-->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="resources/img/logo/favicon.ico"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/fluid.css" />
+    <link rel="stylesheet" type="text/css" href="/css/wantWork.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/31149d48b0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <nav>
+        <img
+          src="resources/img/logo/Logo.png"
+          alt="SPARK logo"
+          class="logo"
+        />
+        <ul class="main-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/submit-work">Want Work</a></li>
+          <li><a href="/">Give Work</a></li>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-box">
+        <div class="header-box-text"></div>
+        <div class="row">
+          <div class="col span_3_of_3 registration-box">
+            <h3>Register Here!!</h3>
+            <div class="registration-form">
+              <div class="col span_1_of_2">
+                  <form action="/want-work" method="post" enctype="multipart/form-data">
+                    <input
+                    name="name"
+                    value=""
+                    class="form-control"
+                    placeholder="Enter Your Name"
+                    type="text"
+                    required
+                  />
+                  <input
+                    name="phone"
+                    value=""
+                    class="form-control"
+                    placeholder="Your Phone No."
+                    type="tel"
+                    required
+                  />
+                  <input
+                    name="email"
+                    value=""
+                    class="form-control"
+                    placeholder="Your Email Address"
+                    type="email"
+                    required
+                  />
+                  <textarea
+                    name="description"
+                    id="message"
+                    class="form-control"
+                    placeholder="Brief Description *"
+                    required
+                  ></textarea>
+                  <input
+                    name="skills"
+                    value=""
+                    class="form-control"
+                    placeholder="Skills"
+                    type="text"
+                    required
+                  />
+                  <input
+                    name="interest"
+                    value=""
+                    class="form-control"
+                    placeholder="Interest"
+                    type="text"
+                    required
+                  />
+                </div>
+                <div class="col span_1_of_2">
+                  <input
+                    name="address"
+                    value=""
+                    class="form-control"
+                    placeholder="Address"
+                    type="text"
+                    required
+                  />
+                  <input
+                    name="state"
+                    value=""
+                    class="form-control"
+                    placeholder="State"
+                    type="text"
+                    required
+                  />
+                  <input
+                    name="district"
+                    value=""
+                    class="form-control"
+                    placeholder="District"
+                    type="text"
+                    required
+                  />
+                  <input
+                    name="pincode"
+                    value=""
+                    class="form-control"
+                    placeholder="Pincode"
+                    type="text"
+                    required
+                  />
+                  <input
+                    name="date"
+                    value=""
+                    class="form-control"
+                    placeholder="When you want to start"
+                    type="text"
+                    required
+                  />
+                  <input
+                    id="image"
+                    type="file"
+                    name="workPic"
+                    accept="image/*"
+                    placeholder="Photo"
+                    required=""
+                    capture
+                  />
+                  <!--  -->
+                
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              class="btn btn-primary btn-xl text-uppercase btn-full"
+              data-bs-dismiss="modal"
+              type="submit"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

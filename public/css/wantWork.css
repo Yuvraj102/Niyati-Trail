@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  color: #000000;
+  text-rendering: optimizeLegibility;
+  font-size: 16px;
+  font-family: "Work Sans", "Arial", sans-serif;
+  font-weight: 300;
+}
+
+.row {
+  max-width: 1309px;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgb(0, 0, 0, 0.5)),
+    url(/img/headerbackground.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 500%;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 200%;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+h2 {
+  font-size: 500%;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+}
+h4 {
+  font-size: 100%;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+}
+h5 {
+  font-size: 100%;
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header-box-text {
+  margin-bottom: 100px;
+}
+
+/************************************************* BUTTONS **************************************************************/
+button {
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 100px;
+  background-color: #5cdb5c;
+  color: #000000;
+}
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 100px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #5cdb5c;
+  color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 100px;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: #29bc29;
+  padding: 20px 30px;
+  border-radius: 100px;
+  color: #ffffff;
+}
+
+/************************************************* NAVIGATION BAR *************************************************************/
+
+.main-nav {
+  list-style: none;
+  float: right;
+  margin-top: 50px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  text-decoration: none;
+  color: #ffffff;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #ffffff;
+}
+
+.logo {
+  height: 80px;
+  width: 450px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+}
+/*******************************************  REGISTRATION BOX  ***********************************************************/
+
+.registration-box {
+  background-image: url(/img/registrationboxgradient.png);
+  background-size: cover;
+  position: relative;
+  border-radius: 50px;
+  padding: 50px 50px;
+  text-align: center;
+}
+
+.registration-form input.form-control {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 15px 50px;
+  margin-bottom: 10px;
+  color: #000000;
+  outline: 0;
+}
+
+.select-form {
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  color: #000000;
+  outline: 0;
+}
+
+.submit-form:link,
+.submit-form:visited {
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  background: transparent;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+}
